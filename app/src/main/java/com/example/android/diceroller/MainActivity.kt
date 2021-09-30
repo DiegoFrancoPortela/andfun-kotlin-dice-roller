@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
         rollButton.setOnClickListener() {
             Toast.makeText(this, "boton pulsado ", Toast.LENGTH_SHORT).show()
         }
-
+        //.
     }
 
 }
