@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val rollButton: Button = findViewById(R.id.roll_button)
+        val rollButton: Button = findViewById(R.id.boton_lanzar)
         rollButton.setOnClickListener() {
             rollDice()
         }
