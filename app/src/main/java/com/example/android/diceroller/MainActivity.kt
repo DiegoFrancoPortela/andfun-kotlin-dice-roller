@@ -18,6 +18,7 @@ package com.example.android.diceroller
 
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -39,10 +40,17 @@ class MainActivity : AppCompatActivity() {
     private fun rollDice() {
         val randomInt = Random().nextInt(6) + 1
 
-        // val
+        val drawableRecursosDado = when (randomInt) {
+            1 -> R.drawable.dice_1
+            2 -> R.drawable.dice_2
+            3 -> R.drawable.dice_3
+            4 -> R.drawable.dice_4
+            5 -> R.drawable.dice_5
+            else -> R.drawable.dice_6
+        }
 
-        val resultText: TextView = findViewById(R.id.texto_resultado)
-        resultText.text = randomInt.toString()
+        val imagenDado: ImageView = findViewById(R.id.imagen_dado)
+        imagenDado.setImageResource(drawableRecursosDado)
     }
 
 }

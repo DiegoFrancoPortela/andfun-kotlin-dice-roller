@@ -25,13 +25,12 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/texto_resultado"
+    <ImageView
+        android:id="@+id/imagen_dado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:textSize="30sp"
-        android:text="1" />
+        android:src="@drawable/dice_0" />
 
     <Button
         android:id="@+id/boton_lanzar"
@@ -40,7 +39,6 @@
         android:layout_gravity="center_horizontal"
         android:text="@string/roll"
         app:icon="@drawable/baseline_emoji_emotions_24"
-        style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
-        />
+        style="@style/Widget.MaterialComponents.Button.Icon" />
 
 </LinearLayout>
