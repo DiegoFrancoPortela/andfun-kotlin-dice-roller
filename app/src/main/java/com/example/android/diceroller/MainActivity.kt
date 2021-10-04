@@ -39,6 +39,8 @@ class MainActivity : AppCompatActivity() {
     private fun rollDice() {
         val randomInt = Random().nextInt(6) + 1
 
+        // val
+
         val resultText: TextView = findViewById(R.id.texto_resultado)
         resultText.text = randomInt.toString()
     }
