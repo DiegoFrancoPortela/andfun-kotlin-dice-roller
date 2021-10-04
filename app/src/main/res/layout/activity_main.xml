@@ -35,6 +35,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="@string/roll" />findViewById
+        android:text="@string/roll"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        />
 
 </LinearLayout>
