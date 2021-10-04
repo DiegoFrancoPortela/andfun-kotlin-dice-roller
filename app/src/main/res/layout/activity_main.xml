@@ -38,7 +38,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="@string/roll"
-        app:icon="@drawable/baseline_emoji_emotions_24"
+        app:icon="@drawable/baseline_casino_24"
         style="@style/Widget.MaterialComponents.Button.Icon" />
 
 </LinearLayout>
