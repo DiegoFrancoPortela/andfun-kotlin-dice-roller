@@ -26,6 +26,8 @@ import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
+    lateinit var imagenDado: ImageView
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -34,6 +36,8 @@ class MainActivity : AppCompatActivity() {
         rollButton.setOnClickListener() {
             rollDice()
         }
+
+        imagenDado = findViewById(R.id.imagen_dado)
 
     }
 
@@ -49,7 +53,6 @@ class MainActivity : AppCompatActivity() {
             else -> R.drawable.dice_6
         }
 
-        val imagenDado: ImageView = findViewById(R.id.imagen_dado)
         imagenDado.setImageResource(drawableRecursosDado)
     }
 
