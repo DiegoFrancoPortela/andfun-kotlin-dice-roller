@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Lanzador de Dados</string>
     <string name="roll">Lanzar</string>
+    <string name="imageview_dado" translatable="false">ImageView Dado</string>
 </resources>
